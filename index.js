@@ -14,7 +14,7 @@ module.exports = {
       });
 
       js.forEach(function (s) {
-        content.push("<script type='text/javascript' href='" + s +"'> </script>";
+        content.push("<script type='text/javascript' href='" + s +"'> </script>");
       });
       return content.join('\n');
     }
